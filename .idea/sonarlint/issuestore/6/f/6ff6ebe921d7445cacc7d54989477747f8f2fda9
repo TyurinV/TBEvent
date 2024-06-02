@@ -1,0 +1,9 @@
+
+}
+java:S1141;"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8‡ñœ¾ý1J$742d2536-0f9f-4442-a428-967606e9847c
+}
+java:S1141M"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ8‡ñœ¾ý1J$67ab1f13-7dc0-4241-a158-a24f055529f7
+•
+java:S6204E"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ª™¨¹8—ñœ¾ý1J$1ca47f06-f476-4841-a23b-bdf1a1152162
+—
+java:S5850D"TGroup parts of the regex together to make the intended operator precedence explicit.(Ñœ·Í8—ñœ¾ý1J$e8f116d3-7490-4ec9-95e7-268c11a4b07c
