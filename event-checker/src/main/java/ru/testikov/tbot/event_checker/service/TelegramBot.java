@@ -8,12 +8,9 @@ import org.telegram.telegrambots.meta.api.methods.GetFile;
 import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 import ru.testikov.tbot.event_checker.checkers.EventChecker;
-import ru.testikov.tbot.event_checker.checkers.SCVChecker;
 import ru.testikov.tbot.event_checker.config.properties.BotProperties;
 
 import java.io.File;
-import java.util.ArrayList;
-import java.util.List;
 
 @Component
 @Slf4j
