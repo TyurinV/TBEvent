@@ -8,10 +8,10 @@ import java.util.List;
 @Component
 public class SCVChecker implements EventChecker {
     @Override
-    public List<String> notHeppendEvent(List<String> ourEvent, List<String> heppendEvent) {
+    public List<String> notHeppendEvent(List<String> ourEvent, List<String> happenedEvent) {
         List<String> result = new ArrayList<>();
         for (String ourString : ourEvent) {
-            if (!heppendEvent.contains(ourString)) {
+            if (!happenedEvent.contains(ourString)) {
                 result.add(ourString);
             }
         }

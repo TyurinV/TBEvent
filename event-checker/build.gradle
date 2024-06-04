@@ -7,6 +7,21 @@ plugins {
 group = 'ru.testikov.tbot'
 version = '0.0.1-SNAPSHOT'
 
+
+
+compileJava.options.encoding = "UTF-8"
+compileTestJava.options.encoding = "UTF-8"
+
+
+
+ tasks.withType(JavaCompile) {
+ options.encoding = "UTF-8"
+ }
+ tasks.withType(Test) {
+ systemProperty "file.encoding", "UTF-8"
+ }
+
+
 java {
 	sourceCompatibility = '17'
 }
@@ -14,6 +29,11 @@ java {
 configurations {
 	compileOnly{
 		extendsFrom annotationProcessor
+	}
+}
+jar {
+	manifest {
+		attributes 'Main-Class': 'ru.testikov.tbot.checker.EventCheckerApplication'
 	}
 }
 
